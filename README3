@@ -1,0 +1,22 @@
+#
+# Copyright (c) 2020-2021 ThunderSoft
+# All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+# You may not use, copy, distribute, modify, transmit in any form this file
+# except in compliance with ThunderSoft in writing by applicable law.
+#
+
+SoftwareVersion: V2.3
+OpenHarmonyVersion: V1.1.0
+BLSDKVesion:1.6.22
+
+1.【本次版本同时给了kitfwk的wifi和ota库，但是kitfwk功能因为华为的限制没有做过测试，无法保证功能】
+Kitfwk相关库路径：Harmony_BL602_releaseV2.0.2/device/bouffalo/bl602/bl_iot_sdk/components/bl602/bl602_hilink/lib
+开发时请注意，鸿蒙系统依赖博流easyflash组件，需要参考turbox_openHarmony中对easyflash进行初始化
+2. SoftwareVersion: V2.2版本 支持WPA3连接功能
+3. 更新mbedtls 版本为2.6.11
+ 
+此版本仅限用于开发及调试，不能用作商业版本发布。
+如果用于商业用途，中科创达不承担任何法律及其他责任。
+
+
+read me 3 1.0
